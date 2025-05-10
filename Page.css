@@ -1,0 +1,50 @@
+
+    body {
+      font-family: Arial, sans-serif;
+      background: linear-gradient(to bottom, #82488d, #031527);
+      color: #320fb1bc;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 20px;
+    }
+    h1 {
+      margin-bottom: 20px;
+    }
+    #emotionForm {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      max-width: 500px;
+    }
+    textarea {
+      height: 100px;
+      padding: 50px;
+      font-size: 16px;
+      border: none;
+      border-radius: 10px;
+      margin-bottom: 10px;
+      resize: none;
+    }
+    button {
+      padding: 10px;
+      font-size: 16px;
+      background-color: #3c80e7;
+      color: white;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+    }
+    #messages {
+      margin-top: 30px;
+      width: 100%;
+      max-width: 500px;
+    }
+    .message {
+      background-color: #3c5a6b;
+      border-radius: 10px;
+      padding: 15px;
+      margin-bottom: 10px;
+      white-space: pre-wrap;
+    }
+
